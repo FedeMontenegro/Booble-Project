@@ -2,6 +2,9 @@ import React from 'react'
 import Styles from "./styles/navbar.module.css"
 
 import UserMenu from '../userMenu/UserMenu'
+import {
+  MenuApps
+} from "../../index.js"
 
 const Navbar = () => {
   return (
@@ -9,7 +12,7 @@ const Navbar = () => {
         <ul className={Styles.ul}>
             <li className={Styles.list}>Gmail</li>
             <li className={Styles.list}>Imágenes</li>
-            <li className={Styles.list}>Apps</li>
+            <li className={Styles.list}>< MenuApps /></li>
             <li className={Styles.listIcons}><UserMenu /></li>
         </ul>
     </nav>
