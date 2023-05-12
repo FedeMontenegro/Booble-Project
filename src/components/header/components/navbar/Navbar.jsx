@@ -1,6 +1,8 @@
 import React from 'react'
 import Styles from "./styles/navbar.module.css"
 
+import UserMenu from '../userMenu/UserMenu'
+
 const Navbar = () => {
   return (
     <nav className={Styles.nav}>
@@ -8,7 +10,7 @@ const Navbar = () => {
             <li className={Styles.list}>Gmail</li>
             <li className={Styles.list}>Imágenes</li>
             <li className={Styles.list}>Apps</li>
-            <li className={Styles.list}>User</li>
+            <li className={Styles.listIcons}><UserMenu /></li>
         </ul>
     </nav>
   )
