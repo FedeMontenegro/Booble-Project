@@ -1,12 +1,16 @@
 import { useState } from 'react'
 
-import {Navbar} from "./components/header/"
+import {
+  Navbar,
+  Browser,
+} from "./components/"
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Browser />
     </>
   )
 }
