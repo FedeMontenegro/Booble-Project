@@ -1,32 +1,30 @@
 .container {
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+    background-color:azure;
+    border-radius: 30px;
+    box-shadow: -1px 2px 8px 2px rgba(0, 0, 0, 0.2);
     display: none;
     cursor: auto;
     margin: 1.5rem;
-    padding: 0.5rem;
+    padding: 0.2rem;
     position: absolute;
     right: 0;
+    z-index: 1;
 }
 
 .accountMenu {
-    background-color: gainsboro;
-    border-radius: 10px;
+    border-radius: 30px;
     list-style: none;
     padding: 0.5rem;
 }
 
 
 .listItemAvatar {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
-}
-
-.listItemAvatar:hover {
-    background-color: white;
+    padding: 1rem;
 }
 
 .avatarContainer {
@@ -34,6 +32,7 @@
 }
 
 .userData h4 {
+    font-weight: 500;
     margin: 0;
 }
 
@@ -48,23 +47,24 @@
 
 .userDataContainer button {
     background-color: transparent;
-    border: solid 2px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 60px;
-    padding: 10px 15px;
+    border: solid 1px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 8px 13px;
 }
 
 .userDataContainer button:hover {
-    background-color: gainsboro;
+    background-color:rgba(211, 211, 211, 0.3);
     cursor: pointer;
 }
 
 .addAccount {
-    border-top: solid 2px white;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    background-color: white;
+    border-top: solid 4px azure;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
@@ -72,7 +72,7 @@
 }
 
 .addAccount:hover {
-    background-color: white;
+    background-color: azure;
 }
 
 .icon {

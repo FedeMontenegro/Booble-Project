@@ -23,11 +23,16 @@ const UserMenu = () => {
 
     return (
         <div onClick={toggleMenu} id="accountMenu">
-            <IconButton id="accountMenu">
+            <IconButton 
+                id="accountMenu"
+                >
                 <Avatar
                     id="accountMenu"
                     sx={{
                         bgcolor: "gray",
+                        fontSize: 18,
+                        height: 33,
+                        width: 33,
                     }}
                 >
                     F

@@ -2,9 +2,7 @@ import React from 'react'
 import Styles from "./styles/navbar.module.css"
 
 import UserMenu from '../userMenu/UserMenu'
-import {
-  MenuApps
-} from "../../index.js"
+import MenuApps from "../menuApps/MenuApps"
 
 const Navbar = () => {
   return (

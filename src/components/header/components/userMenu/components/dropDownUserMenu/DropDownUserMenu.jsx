@@ -24,8 +24,8 @@ const DropDownUserMenu = ({activeMenu}) => {
                             <Avatar
                                 sx={{
                                     bgcolor: "gray",
-                                    height: 80,
-                                    width: 80,
+                                    height: 70,
+                                    width: 70,
                                     fontSize: 35,
                                 }}
                             >
@@ -35,21 +35,24 @@ const DropDownUserMenu = ({activeMenu}) => {
                             <IconButton
                                 sx={{
                                     alignItems: "center",
-                                    bgcolor: "black",
-                                    border: "solid 1px white",
+                                    bgcolor: "white",
+                                    border: "solid 1px gray",
                                     display: "flex",
                                     justifyContent: "center",
+                                    /* margin: "1px", */
                                     position: "absolute",
-                                    top: 55,
+                                    top: 50,
                                     right: -0,
                                     height: 25,
                                     width: 25,
+                                    "&:hover": {
+                                        bgcolor: "white",
+                                    }
                                 }}
                             >
                                 <CameraAltOutlinedIcon
                                     sx={{
-                                        color: "white",
-                                        width: 18,
+                                        width: 20,
                                     }}
                                 />
                             </IconButton>
