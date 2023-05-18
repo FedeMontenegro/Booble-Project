@@ -1,0 +1,86 @@
+.container {
+    background-color:azure;
+    border-radius: 30px;
+    box-shadow: -1px 2px 8px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    cursor: auto;
+    margin: 1.5rem;
+    padding: 0.2rem;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.accountMenu {
+    border-radius: 30px;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+
+.listItemAvatar {
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.avatarContainer {
+    position: relative;
+}
+
+.userData h4 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.userData p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.userDataContainer {
+    margin: 15px;
+}
+
+.userDataContainer button {
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 8px 13px;
+}
+
+.userDataContainer button:hover {
+    background-color:rgba(211, 211, 211, 0.3);
+    cursor: pointer;
+}
+
+.addAccount {
+    background-color: white;
+    border-top: solid 4px azure;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.addAccount:hover {
+    background-color: azure;
+}
+
+.icon {
+    flex: 0.5;
+}
+
+.addAccount p {
+    flex: 2;
+    font-weight: 600;
+    margin-left: 20px;
+}
