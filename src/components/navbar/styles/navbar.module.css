@@ -1,0 +1,19 @@
+.ul {
+    background: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 8px 20px;
+}
+
+.ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ul li:nth-child(n) {
+    color: #70757a;
+    font-size: 14px;
+    padding: 5px 15px;
+}
